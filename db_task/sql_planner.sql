@@ -1,0 +1,78 @@
+-- DBMS
+--RDBMS
+-- database
+	-- create
+    -- use
+    -- list
+    -- delete [drop database db_name]
+-- datatypes
+	-- int
+    -- decimal
+    -- float
+    -- char
+    -- varchar
+    -- text
+    -- boolean
+    -- date
+    -- datetime
+    -- enum
+    
+-- constraints
+	-- PK
+    -- FK
+    -- NULL
+    -- NOT NULL
+    -- UNIQUE
+    -- CHECK
+    -- DEFAULT
+    -- AUTO_INCREMENT
+-- tables
+	-- trunctae (delete records maintain structure)
+	-- alter(alter table)
+    -- delete table(drop table tablename)
+	-- create table
+    -- records insert 
+    -- records update
+    -- record delete
+    -- records list
+		-- where
+			-- and
+            -- IN 
+            -- OR
+            -- between
+            -- not in
+            -- distinct
+            -- order_by
+            -- limit
+            -- offset
+            
+	-- subquery	
+    -- aggregate function
+		-- max
+        -- min
+        -- sum
+        -- count
+        -- avg
+	-- group by
+    -- group by having
+    
+    -- joins
+		-- inner join
+        -- left join
+        -- right join
+	
+    -- table relations
+		-- FORIEGN KEY
+	-- like 
+		-- ending wtih like '%ab'
+        -- starting with like 'ab%'
+        -- contains like '%ab%'
+	-- AUTOCOMMIT
+    -- COMMIT
+    -- ROLLBACK
+    -- VIEWS
+		-- create
+        -- select 
+        -- drop
+
+-- ACID properties

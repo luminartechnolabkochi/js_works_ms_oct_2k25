@@ -1,0 +1,22 @@
+var foodLogs=[
+  { "id": 1, "title": "Oatmeal with Blueberries", "meal_type": "breakfast", "serving_size": "1 bowl", "calories": 310, "date": "2025-12-28", "owner": "user_101" },
+  { "id": 2, "title": "Grilled Chicken Salad", "meal_type": "lunch", "serving_size": "400g", "calories": 450, "date": "2025-12-28", "owner": "user_101" },
+  { "id": 3, "title": "Apple with Peanut Butter", "meal_type": "snack", "serving_size": "1 medium apple", "calories": 200, "date": "2025-12-28", "owner": "user_101" },
+  { "id": 4, "title": "Baked Salmon and Quinoa", "meal_type": "dinner", "serving_size": "1 plate", "calories": 580, "date": "2025-12-28", "owner": "user_101" },
+  { "id": 5, "title": "Greek Yogurt", "meal_type": "snack", "serving_size": "170g", "calories": 150, "date": "2025-12-28", "owner": "user_101" },
+  { "id": 6, "title": "Scrambled Eggs and Toast", "meal_type": "breakfast", "serving_size": "2 eggs", "calories": 340, "date": "2025-12-29", "owner": "user_101" },
+  { "id": 7, "title": "Turkey Sandwich", "meal_type": "lunch", "serving_size": "1 sandwich", "calories": 420, "date": "2025-12-29", "owner": "user_101" },
+  { "id": 8, "title": "Protein Bar", "meal_type": "snack", "serving_size": "60g", "calories": 210, "date": "2025-12-29", "owner": "user_101" },
+  { "id": 9, "title": "Beef Stir-fry", "meal_type": "dinner", "serving_size": "1.5 cups", "calories": 520, "date": "2025-12-29", "owner": "user_101" },
+  { "id": 10, "title": "Dark Chocolate", "meal_type": "snack", "serving_size": "2 squares", "calories": 120, "date": "2025-12-29", "owner": "user_101" },
+  { "id": 11, "title": "Avocado Toast", "meal_type": "breakfast", "serving_size": "2 slices", "calories": 380, "date": "2025-12-28", "owner": "user_202" },
+  { "id": 12, "title": "Lentil Soup", "meal_type": "lunch", "serving_size": "2 cups", "calories": 320, "date": "2025-12-28", "owner": "user_202" },
+  { "id": 13, "title": "Mixed Nuts", "meal_type": "snack", "serving_size": "30g", "calories": 170, "date": "2025-12-28", "owner": "user_202" },
+  { "id": 14, "title": "Spaghetti Bolognese", "meal_type": "dinner", "serving_size": "1 bowl", "calories": 650, "date": "2025-12-28", "owner": "user_202" },
+  { "id": 15, "title": "Banana", "meal_type": "snack", "serving_size": "1 large", "calories": 105, "date": "2025-12-28", "owner": "user_202" },
+  { "id": 16, "title": "Protein Smoothie", "meal_type": "breakfast", "serving_size": "500ml", "calories": 290, "date": "2025-12-29", "owner": "user_202" },
+  { "id": 17, "title": "Quinoa Salad", "meal_type": "lunch", "serving_size": "350g", "calories": 390, "date": "2025-12-29", "owner": "user_202" },
+  { "id": 18, "title": "Hummus and Carrots", "meal_type": "snack", "serving_size": "100g", "calories": 180, "date": "2025-12-29", "owner": "user_202" },
+  { "id": 19, "title": "Grilled Shrimp Tacos", "meal_type": "dinner", "serving_size": "3 tacos", "calories": 480, "date": "2025-12-29", "owner": "user_202" },
+  { "id": 20, "title": "Cottage Cheese", "meal_type": "snack", "serving_size": "1/2 cup", "calories": 110, "date": "2025-12-29", "owner": "user_202" }
+]

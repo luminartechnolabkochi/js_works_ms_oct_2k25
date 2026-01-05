@@ -1,0 +1,58 @@
+
+Design a relational database for a FixMyRoad application where users can report road issues.
+Each issue should store the title, location, description, category, status, created date,
+and the user (owner) who reported it.
+
+pothole
+waterlogging
+open_manhole
+damaged_footpath
+other
+
+step creat a data base for fixmyroad
+>create database fixmyroad_db;
+
+switch to fixmyroad_db
+>use fixmyroad_db;
+
+create a table issues
+
+-- issue should store the title, location, description, category, status, created date,
+--and the user (owner) who reported it.
+
+pothole
+waterlogging
+open_manhole
+damaged_footpath
+other
+
+>create table issues(
+ 
+        id int PRIMARY KEY auto_increment,
+        title varchar(200) NOT NULL,
+        location varchar(200) NOT NULL,
+        description Text,
+        category enum('pothole','waterlogging','open_manhole','damaged_footpath','other') default 'pothole',
+        status boolean default true,
+        created_at DATETIME default CURRENT TIMESTAMP,
+        owner varchar(200) not null      
+
+
+);
+
+
+sql query for inserting records
+
+syntax
+
+>insert into table table_name (column1,column2,column3) values(val1,val2,val3)
+
+>insert into table table_name (title,location,description,category,owner) values
+                            ('drainage issue','mg road','drainage issue on mg road','other','vipin')
+
+
+sql query for fecthing all record from data base table
+
+> select * from table_name; 
+
+        * all columns
